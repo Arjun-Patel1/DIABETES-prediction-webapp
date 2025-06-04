@@ -1,1 +1,0 @@
-# DIABETES-prediction-webapp
