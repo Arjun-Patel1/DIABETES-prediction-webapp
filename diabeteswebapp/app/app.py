@@ -4,7 +4,9 @@ import numpy as np
 import pickle
 
 # Load the model and scaler
-with open("../model/diabetes_model.pkl", "rb") as f:
+#with open("../model/diabetes_model.pkl", "rb") as f:
+ #   model, scaler = pickle.load(f)
+with open("diabeteswebapp/diabetes_model.pkl", "rb") as f:
     model, scaler = pickle.load(f)
 
 # Streamlit App
